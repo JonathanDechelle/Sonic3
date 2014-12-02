@@ -1,0 +1,30 @@
+C:\Users\Jonathan\Desktop\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Jonathan\Desktop\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.dll
+C:\Users\Jonathan\Desktop\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.pdb
+C:\Users\Jonathan\Desktop\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.csprojResolveAssemblyReference.cache
+C:\Users\Jonathan\Desktop\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
+C:\Users\Jonathan\Desktop\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb
+C:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.dll
+C:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.pdb
+C:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.csprojResolveAssemblyReference.cache
+C:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
+C:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb
+D:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.dll
+D:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.pdb
+D:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.csprojResolveAssemblyReference.cache
+D:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
+D:\Jo\Jeux\Zombie Land Game\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb
+D:\Jo\Jeux\Mes Creations\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.dll
+D:\Jo\Jeux\Mes Creations\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.pdb
+D:\Jo\Jeux\Mes Creations\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.csprojResolveAssemblyReference.cache
+D:\Jo\Jeux\Mes Creations\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Jo\Jeux\Mes Creations\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
+D:\Jo\Jeux\Mes Creations\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb
+J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.dll
+J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.pdb
+J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.csprojResolveAssemblyReference.cache
+J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
+J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb

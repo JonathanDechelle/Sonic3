@@ -1,0 +1,1457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>segalogo.png</Source>
+      <Name>segalogo</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\segalogo.xnb</Output>
+      <Time>2013-02-06T06:47:50-06:00</Time>
+    </Item>
+    <Item>
+      <Source>segalogow.png</Source>
+      <Name>segalogow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\segalogow.xnb</Output>
+      <Time>2013-02-07T05:34:32-06:00</Time>
+    </Item>
+    <Item>
+      <Source>backintro.png</Source>
+      <Name>backintro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\backintro.xnb</Output>
+      <Time>2013-02-06T23:00:50-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Sonicintro.png</Source>
+      <Name>Sonicintro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Sonicintro.xnb</Output>
+      <Time>2013-02-06T23:00:52-06:00</Time>
+    </Item>
+    <Item>
+      <Source>TailAirplane.png</Source>
+      <Name>TailAirplane</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailAirplane.xnb</Output>
+      <Time>2013-02-06T23:26:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LogoPart1.png</Source>
+      <Name>LogoPart1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LogoPart1.xnb</Output>
+      <Time>2013-02-07T20:10:58-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LogoPart2.png</Source>
+      <Name>LogoPart2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LogoPart2.xnb</Output>
+      <Time>2013-02-07T20:14:12-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LogoPart3.png</Source>
+      <Name>LogoPart3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LogoPart3.xnb</Output>
+      <Time>2013-02-07T05:35:18-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LogoPart4.png</Source>
+      <Name>LogoPart4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LogoPart4.xnb</Output>
+      <Time>2013-02-07T05:35:18-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LogoPart5.png</Source>
+      <Name>LogoPart5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LogoPart5.xnb</Output>
+      <Time>2013-02-07T05:35:18-06:00</Time>
+    </Item>
+    <Item>
+      <Source>sonic3embleme.png</Source>
+      <Name>sonic3embleme</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\sonic3embleme.xnb</Output>
+      <Time>2013-02-07T12:30:24-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Copyright.png</Source>
+      <Name>Copyright</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Copyright.xnb</Output>
+      <Time>2013-02-07T12:32:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ClinOeil.png</Source>
+      <Name>ClinOeil</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\ClinOeil.xnb</Output>
+      <Time>2013-02-07T20:03:20-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MainSonic.png</Source>
+      <Name>MainSonic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MainSonic.xnb</Output>
+      <Time>2013-02-07T19:48:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>CompetIntro.png</Source>
+      <Name>CompetIntro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\CompetIntro.xnb</Output>
+      <Time>2013-02-07T20:43:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>playerIntro.png</Source>
+      <Name>playerIntro</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\playerIntro.xnb</Output>
+      <Time>2013-02-07T20:43:54-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MainMenuBack2.png</Source>
+      <Name>MainMenuBack2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MainMenuBack2.xnb</Output>
+      <Time>2013-02-09T12:29:42-06:00</Time>
+    </Item>
+    <Item>
+      <Source>cadreAnim.png</Source>
+      <Name>cadreAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\cadreAnim.xnb</Output>
+      <Time>2013-02-08T11:48:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>cadreNormal.png</Source>
+      <Name>cadreNormal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\cadreNormal.xnb</Output>
+      <Time>2013-02-09T12:57:10-06:00</Time>
+    </Item>
+    <Item>
+      <Source>cadreNoSave.png</Source>
+      <Name>cadreNoSave</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\cadreNoSave.xnb</Output>
+      <Time>2013-02-11T20:24:58-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NewGame.png</Source>
+      <Name>NewGame</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\NewGame.xnb</Output>
+      <Time>2013-02-08T08:34:32-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Stage1.png</Source>
+      <Name>Stage1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Stage1.xnb</Output>
+      <Time>2013-02-08T09:19:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>cadreCarre.png</Source>
+      <Name>cadreCarre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\cadreCarre.xnb</Output>
+      <Time>2013-02-09T10:12:46-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Test.png</Source>
+      <Name>Test</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Test.xnb</Output>
+      <Time>2013-02-09T09:46:18-06:00</Time>
+    </Item>
+    <Item>
+      <Source>sonicPresent.png</Source>
+      <Name>sonicPresent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\sonicPresent.xnb</Output>
+      <Time>2013-02-09T12:47:10-06:00</Time>
+    </Item>
+    <Item>
+      <Source>TailPresent.png</Source>
+      <Name>TailPresent</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailPresent.xnb</Output>
+      <Time>2013-02-09T13:01:22-06:00</Time>
+    </Item>
+    <Item>
+      <Source>flecheSelect.png</Source>
+      <Name>flecheSelect</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\flecheSelect.xnb</Output>
+      <Time>2013-02-11T19:44:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>CompleteAngelIslandBack.png</Source>
+      <Name>CompleteAngelIslandBack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\CompleteAngelIslandBack.xnb</Output>
+      <Time>2013-02-13T19:40:02-06:00</Time>
+    </Item>
+    <Item>
+      <Source>normalSonic.png</Source>
+      <Name>normalSonic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\normalSonic.xnb</Output>
+      <Time>2013-02-12T13:22:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicWaiting.png</Source>
+      <Name>SonicWaiting</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicWaiting.xnb</Output>
+      <Time>2013-02-12T17:12:38-06:00</Time>
+    </Item>
+    <Item>
+      <Source>CrouchSonic.png</Source>
+      <Name>CrouchSonic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\CrouchSonic.xnb</Output>
+      <Time>2013-02-14T20:24:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SpiningSonic.png</Source>
+      <Name>SpiningSonic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SpiningSonic.xnb</Output>
+      <Time>2013-02-19T21:37:52-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicJump.png</Source>
+      <Name>SonicJump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicJump.xnb</Output>
+      <Time>2013-02-12T19:11:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicWalking.png</Source>
+      <Name>SonicWalking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicWalking.xnb</Output>
+      <Time>2013-02-13T21:34:24-06:00</Time>
+    </Item>
+    <Item>
+      <Source>obstacle1.png</Source>
+      <Name>obstacle1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\obstacle1.xnb</Output>
+      <Time>2013-02-24T20:51:52-06:00</Time>
+    </Item>
+    <Item>
+      <Source>obstacle2.png</Source>
+      <Name>obstacle2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\obstacle2.xnb</Output>
+      <Time>2013-02-19T09:38:08-06:00</Time>
+    </Item>
+    <Item>
+      <Source>attack1.png</Source>
+      <Name>attack1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\attack1.xnb</Output>
+      <Time>2013-02-14T19:43:44-06:00</Time>
+    </Item>
+    <Item>
+      <Source>DustSpin.png</Source>
+      <Name>DustSpin</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\DustSpin.xnb</Output>
+      <Time>2013-02-14T20:00:46-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Obs3.png</Source>
+      <Name>Obs3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Obs3.xnb</Output>
+      <Time>2013-02-24T20:50:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicMiCourse.png</Source>
+      <Name>SonicMiCourse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicMiCourse.xnb</Output>
+      <Time>2013-02-19T18:48:44-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicCourse.png</Source>
+      <Name>SonicCourse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicCourse.xnb</Output>
+      <Time>2013-02-19T18:52:48-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RedBong.png</Source>
+      <Name>RedBong</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RedBong.xnb</Output>
+      <Time>2013-02-20T12:45:02-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RedBongAnim.png</Source>
+      <Name>RedBongAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RedBongAnim.xnb</Output>
+      <Time>2013-02-20T19:47:04-06:00</Time>
+    </Item>
+    <Item>
+      <Source>arbre.png</Source>
+      <Name>arbre</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\arbre.xnb</Output>
+      <Time>2013-03-05T10:04:46-06:00</Time>
+    </Item>
+    <Item>
+      <Source>feuillage1.png</Source>
+      <Name>feuillage1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\feuillage1.xnb</Output>
+      <Time>2013-02-21T12:20:36-06:00</Time>
+    </Item>
+    <Item>
+      <Source>feuillage2.png</Source>
+      <Name>feuillage2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\feuillage2.xnb</Output>
+      <Time>2013-02-21T12:20:36-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ecorceComplexe.png</Source>
+      <Name>ecorceComplexe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\ecorceComplexe.xnb</Output>
+      <Time>2013-02-21T20:15:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ecorceComplexe2.png</Source>
+      <Name>ecorceComplexe2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\ecorceComplexe2.xnb</Output>
+      <Time>2013-02-21T20:30:26-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ringAnim.png</Source>
+      <Name>ringAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\ringAnim.xnb</Output>
+      <Time>2013-02-21T20:47:18-06:00</Time>
+    </Item>
+    <Item>
+      <Source>ringcatch.png</Source>
+      <Name>ringcatch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\ringcatch.xnb</Output>
+      <Time>2013-02-22T10:20:26-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring0.png</Source>
+      <Name>Ring0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring0.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring1.png</Source>
+      <Name>Ring1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring1.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring2.png</Source>
+      <Name>Ring2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring2.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring3.png</Source>
+      <Name>Ring3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring3.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring4.png</Source>
+      <Name>Ring4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring4.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring5.png</Source>
+      <Name>Ring5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring5.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring6.png</Source>
+      <Name>Ring6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring6.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring7.png</Source>
+      <Name>Ring7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring7.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring8.png</Source>
+      <Name>Ring8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring8.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Ring9.png</Source>
+      <Name>Ring9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Ring9.xnb</Output>
+      <Time>2013-02-25T17:32:28-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RingText.png</Source>
+      <Name>RingText</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RingText.xnb</Output>
+      <Time>2013-02-25T18:47:58-06:00</Time>
+    </Item>
+    <Item>
+      <Source>PicVerticale.png</Source>
+      <Name>PicVerticale</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\PicVerticale.xnb</Output>
+      <Time>2013-02-25T19:19:04-06:00</Time>
+    </Item>
+    <Item>
+      <Source>sonicHurt.png</Source>
+      <Name>sonicHurt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\sonicHurt.xnb</Output>
+      <Time>2013-02-26T09:21:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicLife.png</Source>
+      <Name>SonicLife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicLife.xnb</Output>
+      <Time>2013-02-26T10:05:40-06:00</Time>
+    </Item>
+    <Item>
+      <Source>checkpointNonPasser.png</Source>
+      <Name>checkpointNonPasser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\checkpointNonPasser.xnb</Output>
+      <Time>2013-02-27T06:41:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>checkpointPasser.png</Source>
+      <Name>checkpointPasser</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\checkpointPasser.xnb</Output>
+      <Time>2013-02-27T06:41:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RhinobotMove.png</Source>
+      <Name>RhinobotMove</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RhinobotMove.xnb</Output>
+      <Time>2013-02-28T17:56:24-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RhinobotReturn1.png</Source>
+      <Name>RhinobotReturn1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RhinobotReturn1.xnb</Output>
+      <Time>2013-02-28T19:30:52-06:00</Time>
+    </Item>
+    <Item>
+      <Source>RhinobotReturn2.png</Source>
+      <Name>RhinobotReturn2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RhinobotReturn2.xnb</Output>
+      <Time>2013-02-28T19:30:52-06:00</Time>
+    </Item>
+    <Item>
+      <Source>killBadnickAnim.png</Source>
+      <Name>killBadnickAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\killBadnickAnim.xnb</Output>
+      <Time>2013-03-02T16:52:04-06:00</Time>
+    </Item>
+    <Item>
+      <Source>EcureuilAnim.png</Source>
+      <Name>EcureuilAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\EcureuilAnim.xnb</Output>
+      <Time>2013-03-02T16:59:16-06:00</Time>
+    </Item>
+    <Item>
+      <Source>OiseauAnim.png</Source>
+      <Name>OiseauAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\OiseauAnim.xnb</Output>
+      <Time>2013-03-02T16:59:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>PoulelAnim.png</Source>
+      <Name>PoulelAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\PoulelAnim.xnb</Output>
+      <Time>2013-03-02T16:59:18-06:00</Time>
+    </Item>
+    <Item>
+      <Source>TeteSinge.png</Source>
+      <Name>TeteSinge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TeteSinge.xnb</Output>
+      <Time>2013-03-05T09:11:34-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BrasSinge.png</Source>
+      <Name>BrasSinge</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\BrasSinge.xnb</Output>
+      <Time>2013-03-05T09:19:26-06:00</Time>
+    </Item>
+    <Item>
+      <Source>BouleBras.png</Source>
+      <Name>BouleBras</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\BouleBras.xnb</Output>
+      <Time>2013-03-05T18:46:30-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MainBrasArticuler.png</Source>
+      <Name>MainBrasArticuler</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MainBrasArticuler.xnb</Output>
+      <Time>2013-03-07T17:09:56-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NoixArmed.png</Source>
+      <Name>NoixArmed</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\NoixArmed.xnb</Output>
+      <Time>2013-03-07T18:32:44-06:00</Time>
+    </Item>
+    <Item>
+      <Source>NoixCoco.png</Source>
+      <Name>NoixCoco</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\NoixCoco.xnb</Output>
+      <Time>2013-03-07T18:32:44-06:00</Time>
+    </Item>
+    <Item>
+      <Source>itemTele.png</Source>
+      <Name>itemTele</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\itemTele.xnb</Output>
+      <Time>2013-03-11T08:48:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>itemBulleBlanche.png</Source>
+      <Name>itemBulleBlanche</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\itemBulleBlanche.xnb</Output>
+      <Time>2013-03-11T08:33:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>itemLife.png</Source>
+      <Name>itemLife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\itemLife.xnb</Output>
+      <Time>2013-03-11T08:33:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>itemRing.png</Source>
+      <Name>itemRing</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\itemRing.xnb</Output>
+      <Time>2013-03-11T08:33:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>itemDestroy.png</Source>
+      <Name>itemDestroy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\itemDestroy.xnb</Output>
+      <Time>2013-03-11T11:03:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>BulleShieldAnim.png</Source>
+      <Name>BulleShieldAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\BulleShieldAnim.xnb</Output>
+      <Time>2013-03-12T09:01:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>bulleJumpAnim.png</Source>
+      <Name>bulleJumpAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\bulleJumpAnim.xnb</Output>
+      <Time>2013-03-13T17:27:26-05:00</Time>
+    </Item>
+    <Item>
+      <Source>BulleAnim.png</Source>
+      <Name>BulleAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\BulleAnim.xnb</Output>
+      <Time>2013-03-13T19:15:56-05:00</Time>
+    </Item>
+    <Item>
+      <Source>loop.png</Source>
+      <Name>loop</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\loop.xnb</Output>
+      <Time>2013-03-15T17:31:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Pente1.png</Source>
+      <Name>Pente1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Pente1.xnb</Output>
+      <Time>2013-03-24T17:01:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Pente1A.png</Source>
+      <Name>Pente1A</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Pente1A.xnb</Output>
+      <Time>2013-03-26T07:12:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MiniBoss1.png</Source>
+      <Name>MiniBoss1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MiniBoss1.xnb</Output>
+      <Time>2013-04-02T07:34:26-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MiniBossAnim.png</Source>
+      <Name>MiniBossAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MiniBossAnim.xnb</Output>
+      <Time>2013-04-03T12:20:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MiniBoss1Touch.png</Source>
+      <Name>MiniBoss1Touch</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MiniBoss1Touch.xnb</Output>
+      <Time>2013-04-05T07:41:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MB1FeuAnim.png</Source>
+      <Name>MB1FeuAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MB1FeuAnim.xnb</Output>
+      <Time>2013-04-05T08:09:16-05:00</Time>
+    </Item>
+    <Item>
+      <Source>FireBullet.png</Source>
+      <Name>FireBullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\FireBullet.xnb</Output>
+      <Time>2013-04-08T19:43:20-05:00</Time>
+    </Item>
+    <Item>
+      <Source>miniBossDes.png</Source>
+      <Name>miniBossDes</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\miniBossDes.xnb</Output>
+      <Time>2013-04-12T15:16:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>FlagAnim.png</Source>
+      <Name>FlagAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\FlagAnim.xnb</Output>
+      <Time>2013-04-24T21:18:04-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicGoalSign.png</Source>
+      <Name>SonicGoalSign</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicGoalSign.xnb</Output>
+      <Time>2013-04-24T20:49:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>BossGoalSign.png</Source>
+      <Name>BossGoalSign</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\BossGoalSign.xnb</Output>
+      <Time>2013-04-24T21:24:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>redBongH.png</Source>
+      <Name>redBongH</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\redBongH.xnb</Output>
+      <Time>2013-04-30T11:33:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>redBongHAnim.png</Source>
+      <Name>redBongHAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\redBongHAnim.xnb</Output>
+      <Time>2013-04-30T11:33:36-05:00</Time>
+    </Item>
+    <Item>
+      <Source>redBongH2.png</Source>
+      <Name>redBongH2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\redBongH2.xnb</Output>
+      <Time>2013-04-30T17:07:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>redBongHAnim2.png</Source>
+      <Name>redBongHAnim2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\redBongHAnim2.xnb</Output>
+      <Time>2013-04-30T17:07:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Arriere3.png</Source>
+      <Name>Arriere3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Arriere3.xnb</Output>
+      <Time>2013-05-02T19:55:31.6020005-05:00</Time>
+    </Item>
+    <Item>
+      <Source>RedBongB.png</Source>
+      <Name>RedBongB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RedBongB.xnb</Output>
+      <Time>2013-05-03T08:27:08.8236582-05:00</Time>
+    </Item>
+    <Item>
+      <Source>RedBongBAnim.png</Source>
+      <Name>RedBongBAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\RedBongBAnim.xnb</Output>
+      <Time>2013-05-03T08:27:08.8026181-05:00</Time>
+    </Item>
+    <Item>
+      <Source>DeadSonic.png</Source>
+      <Name>DeadSonic</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\DeadSonic.xnb</Output>
+      <Time>2013-05-05T22:36:58.052309-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Act1Text.png</Source>
+      <Name>Act1Text</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Act1Text.xnb</Output>
+      <Time>2013-05-07T16:46:16.256239-05:00</Time>
+    </Item>
+    <Item>
+      <Source>PassedText.png</Source>
+      <Name>PassedText</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\PassedText.xnb</Output>
+      <Time>2013-05-07T16:46:16.2718056-05:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicText.png</Source>
+      <Name>SonicText</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicText.xnb</Output>
+      <Time>2013-05-07T16:46:16.2718056-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailWaiting.png</Source>
+      <Name>TailWaiting</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailWaiting.xnb</Output>
+      <Time>2013-05-09T21:06:31.2836835-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailWalking.png</Source>
+      <Name>TailWalking</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailWalking.xnb</Output>
+      <Time>2013-05-09T21:21:02.1554067-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailJump.png</Source>
+      <Name>TailJump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailJump.xnb</Output>
+      <Time>2013-05-09T21:39:52.4160865-05:00</Time>
+    </Item>
+    <Item>
+      <Source>CrouchTail.png</Source>
+      <Name>CrouchTail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\CrouchTail.xnb</Output>
+      <Time>2013-05-09T21:58:10.0182577-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailBoule.png</Source>
+      <Name>TailBoule</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailBoule.xnb</Output>
+      <Time>2013-05-09T22:21:11.9960756-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailSpining.png</Source>
+      <Name>TailSpining</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailSpining.xnb</Output>
+      <Time>2013-05-09T22:33:26.6868849-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailJumpForward.png</Source>
+      <Name>TailJumpForward</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailJumpForward.xnb</Output>
+      <Time>2013-05-09T23:47:55.8822405-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailMiCourse.png</Source>
+      <Name>TailMiCourse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailMiCourse.xnb</Output>
+      <Time>2013-05-10T16:08:21.8860258-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailCourse.png</Source>
+      <Name>TailCourse</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailCourse.xnb</Output>
+      <Time>2013-05-10T16:14:59.8444435-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailAttack.png</Source>
+      <Name>TailAttack</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailAttack.xnb</Output>
+      <Time>2013-05-10T16:34:38.8658063-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailHurt.png</Source>
+      <Name>TailHurt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailHurt.xnb</Output>
+      <Time>2013-05-10T16:36:59.5689734-05:00</Time>
+    </Item>
+    <Item>
+      <Source>DeadTail.png</Source>
+      <Name>DeadTail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\DeadTail.xnb</Output>
+      <Time>2013-05-12T20:14:24.3012144-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sonicPause.jpg</Source>
+      <Name>sonicPause</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\sonicPause.xnb</Output>
+      <Time>2013-05-16T08:35:49.7253589-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailGoalSign.png</Source>
+      <Name>TailGoalSign</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailGoalSign.xnb</Output>
+      <Time>2013-05-17T08:17:32.1091775-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailText.png</Source>
+      <Name>TailText</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailText.xnb</Output>
+      <Time>2013-05-17T08:17:32.1091775-05:00</Time>
+    </Item>
+    <Item>
+      <Source>ItemLifeTail.png</Source>
+      <Name>ItemLifeTail</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\ItemLifeTail.xnb</Output>
+      <Time>2013-05-17T08:39:35.8179035-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TailLife.png</Source>
+      <Name>TailLife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TailLife.xnb</Output>
+      <Time>2013-05-17T08:50:47.5329891-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Act2Back.png</Source>
+      <Name>Act2Back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Act2Back.xnb</Output>
+      <Time>2013-05-20T17:10:19.7108064-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Act2Front.png</Source>
+      <Name>Act2Front</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Act2Front.xnb</Output>
+      <Time>2013-05-20T17:09:45.9342064-05:00</Time>
+    </Item>
+    <Item>
+      <Source>BackComplete2.png</Source>
+      <Name>BackComplete2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\BackComplete2.xnb</Output>
+      <Time>2013-05-22T20:38:53.46245-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Obs4.png</Source>
+      <Name>Obs4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Obs4.xnb</Output>
+      <Time>2013-05-21T09:02:11.8874036-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Pente2.png</Source>
+      <Name>Pente2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Pente2.xnb</Output>
+      <Time>2013-05-21T16:26:00.0548311-05:00</Time>
+    </Item>
+    <Item>
+      <Source>FireAnim.png</Source>
+      <Name>FireAnim</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\FireAnim.xnb</Output>
+      <Time>2013-05-21T21:05:36.0906829-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Act2Signe.png</Source>
+      <Name>Act2Signe</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Act2Signe.xnb</Output>
+      <Time>2013-05-24T09:56:08.3204634-05:00</Time>
+    </Item>
+    <Item>
+      <Source>sega.mp3</Source>
+      <Name>sega</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\sega.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\sega.wma</Extra>
+      <Time>2013-02-07T11:43:50-06:00</Time>
+    </Item>
+    <Item>
+      <Source>SonicIntroRepeat.mp3</Source>
+      <Name>SonicIntroRepeat</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicIntroRepeat.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\SonicIntroRepeat.wma</Extra>
+      <Time>2013-02-07T11:34:50-06:00</Time>
+    </Item>
+    <Item>
+      <Source>MainMenu.mp3</Source>
+      <Name>MainMenu</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MainMenu.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\MainMenu.wma</Extra>
+      <Time>2013-02-11T20:45:46-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Angel Island  Act1.mp3</Source>
+      <Name>Angel Island  Act1</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Angel Island  Act1.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Angel Island  Act1.wma</Extra>
+      <Time>2013-02-11T20:49:08-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Minor bosses.mp3</Source>
+      <Name>Minor bosses</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Minor bosses.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Minor bosses.wma</Extra>
+      <Time>2013-05-07T06:55:42.6833404-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Level Complete.mp3</Source>
+      <Name>Level Complete</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Level Complete.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Level Complete.wma</Extra>
+      <Time>2013-05-09T15:04:36.4686692-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Angel Island  Act2.mp3</Source>
+      <Name>Angel Island  Act2</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Angel Island  Act2.xnb</Output>
+      <Extra>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Angel Island  Act2.wma</Extra>
+      <Time>2013-05-24T09:58:16.997705-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Info.spritefont</Source>
+      <Name>Info</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Info.xnb</Output>
+      <Time>2013-05-16T08:31:38.6214667-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Jump.wav</Source>
+      <Name>Jump</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Jump.xnb</Output>
+      <Time>2013-02-20T06:06:32-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Spin.wav</Source>
+      <Name>Spin</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Spin.xnb</Output>
+      <Time>2013-02-20T06:06:32-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Spin2.wav</Source>
+      <Name>Spin2</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Spin2.xnb</Output>
+      <Time>2013-02-20T06:06:32-06:00</Time>
+    </Item>
+    <Item>
+      <Source>Spring.wav</Source>
+      <Name>Spring</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Spring.xnb</Output>
+      <Time>2013-02-21T19:58:58-06:00</Time>
+    </Item>
+    <Item>
+      <Source>CatchRing.wav</Source>
+      <Name>CatchRing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\CatchRing.xnb</Output>
+      <Time>2013-02-22T17:24:04-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LostRing.wav</Source>
+      <Name>LostRing</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LostRing.xnb</Output>
+      <Time>2013-02-25T19:41:08-06:00</Time>
+    </Item>
+    <Item>
+      <Source>EnnemiItem.wav</Source>
+      <Name>EnnemiItem</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\EnnemiItem.xnb</Output>
+      <Time>2013-03-05T08:11:14-06:00</Time>
+    </Item>
+    <Item>
+      <Source>LifeUp.wav</Source>
+      <Name>LifeUp</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\LifeUp.xnb</Output>
+      <Time>2013-03-11T13:08:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Perte Bouclier.wav</Source>
+      <Name>Perte Bouclier</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Perte Bouclier.xnb</Output>
+      <Time>2013-03-14T17:47:38-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Checkpoint.wav</Source>
+      <Name>Checkpoint</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Checkpoint.xnb</Output>
+      <Time>2012-05-20T16:59:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>FireBulletwav.wav</Source>
+      <Name>FireBulletwav</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\FireBulletwav.xnb</Output>
+      <Time>2013-04-09T14:17:48-05:00</Time>
+    </Item>
+    <Item>
+      <Source>TouchBoss.wav</Source>
+      <Name>TouchBoss</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\TouchBoss.xnb</Output>
+      <Time>2013-04-09T14:17:48-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Hurt.wav</Source>
+      <Name>Hurt</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Hurt.xnb</Output>
+      <Time>2013-04-12T14:40:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Destruction MiniBoss.wav</Source>
+      <Name>Destruction MiniBoss</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\Destruction MiniBoss.xnb</Output>
+      <Time>2013-04-12T15:23:00-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3Content\</RootDirectory>
+      <LoggerRootDirectory>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\</LoggerRootDirectory>
+      <IntermediateDirectory>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-05:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-10-02T19:32:06.7426709-05:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
