@@ -28,3 +28,9 @@ J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86
 J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
 J:\Mes Creations\XNA\Sonic 3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb
+D:\Project\TO CLEAN PLZ\Sonic3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.dll
+D:\Project\TO CLEAN PLZ\Sonic3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\bin\x86\Debug\MyGameLibrairy.pdb
+D:\Project\TO CLEAN PLZ\Sonic3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.csprojResolveAssemblyReference.cache
+D:\Project\TO CLEAN PLZ\Sonic3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+D:\Project\TO CLEAN PLZ\Sonic3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.dll
+D:\Project\TO CLEAN PLZ\Sonic3\GameLibrairie\MyGameLibrairy\MyGameLibrairy\obj\x86\Debug\MyGameLibrairy.pdb

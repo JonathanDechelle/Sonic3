@@ -1,4 +1,0 @@
-C:\Users\Jonathan\Desktop\Sonic 3\Sonic3\Sonic3\Sonic3Content\obj\x86\Debug\Sonic3Content.contentprojResolveAssemblyReference.cache
-E:\Sonic 3\Sonic3\Sonic3\Sonic3Content\obj\x86\Debug\ResolveAssemblyReference.cache
-D:\Jo\Jeux\Mes Creations\Sonic 3\Sonic3\Sonic3\Sonic3Content\obj\x86\Debug\Sonic3Content.contentprojResolveAssemblyReference.cache
-J:\Mes Creations\XNA\Sonic 3\Sonic3\Sonic3\Sonic3Content\obj\x86\Debug\Sonic3Content.contentprojResolveAssemblyReference.cache
