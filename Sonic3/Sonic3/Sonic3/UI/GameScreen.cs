@@ -6,8 +6,6 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
-namespace MyGameLibrairy
-{
     /// <summary>
     /// Represent a basic class for every screen that will need the be drawn.
     /// </summary>
@@ -103,8 +101,8 @@ namespace MyGameLibrairy
         /// <param name="Screens">An array of GameScreen to create while loading.</param>
         /// <param name="BackgroundBuffer">A background picture to use for the loading screen. Can be null.</param>
         /// <param name="graphics">Pour utiliser tout ce qui attrait a la fenetre</param>
-        public LoadScreen(IServiceProvider serviceProvider, GameScreen[] Screens, Texture2D BackgroundBuffer,GraphicsDeviceManager graphics)
-            : base(serviceProvider,graphics)
+        public LoadScreen(IServiceProvider serviceProvider, GameScreen[] Screens, Texture2D BackgroundBuffer, GraphicsDeviceManager graphics)
+            : base(serviceProvider, graphics)
         {
             this.Screens = Screens;
             this.BackgroundBuffer = BackgroundBuffer;
@@ -124,11 +122,10 @@ namespace MyGameLibrairy
                     GameScreen.AddScreen(Screens[i]);
             }
         }
-        public override void Draw(GameTime gametime,SpriteBatch g)
+        public override void Draw(GameTime gametime, SpriteBatch g)
         {
             if (BackgroundBuffer != null)
                 g.Draw(BackgroundBuffer, new Vector2(0, 0), Color.White);
-           // g.DrawString(Game.fntArial, "Loading", new Vector2(Game.Width - 100, Game.Height - 80), Color.Black);
+            // g.DrawString(Game.fntArial, "Loading", new Vector2(Game.Width - 100, Game.Height - 80), Color.Black);
         }
     }
-}

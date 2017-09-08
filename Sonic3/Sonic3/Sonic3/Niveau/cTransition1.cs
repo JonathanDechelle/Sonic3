@@ -5,7 +5,6 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Audio;
-using MyGameLibrairy;
 using Microsoft.Xna.Framework.Media;
 
 namespace Sonic3
@@ -49,7 +48,7 @@ namespace Sonic3
                 Compteur += (float)gameTime.ElapsedGameTime.TotalSeconds;
                 if (Compteur >= 2)
                 {
-                    AddScreen(new cTest(serviceProvider, GraphicsDeviceManager,NumPerso));
+                    //AddScreen(new cTest(serviceProvider, GraphicsDeviceManager,NumPerso));
                     RemoveScreen(this);
                 }
             }

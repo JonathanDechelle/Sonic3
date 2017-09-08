@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace MyGameLibrairy
-{
-    public class AllAnimationSonic
-    {
+ public class AllAnimationSonic
+ {
         static public AnimationPlayer AnimationPlayer = new AnimationPlayer();
         //Pack Sonic
         public Animation SonicNormal = new Animation(RessourceSonic3.NormalSonic, 80, 1f, 2, true);
@@ -51,6 +49,4 @@ namespace MyGameLibrairy
         static public Animation BulleAnim = new Animation(RessourceSonic3.BulleAnim, 150, 0.06f, 1, true);
         public float WalkingFrameTimer = 0.1f;
         public float CourseFrameTimer = 0.08f;
-       
-    }
 }

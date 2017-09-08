@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using MyGameLibrairy;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Media;
