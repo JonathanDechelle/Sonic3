@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Media;
 
-class SegaSplashScreen
+public class SegaSplashScreen
 {
     private int NUMBER_OF_PART = 5;
     private const int FRAME_NUMBERS_BY_PART = 5;
@@ -88,8 +88,8 @@ class SegaSplashScreen
         m_AnimationPlayer.PlayAnimation(currentPartAnimation);
     }
 
-    public void DrawAnimation(GameTime gametime, SpriteBatch g)
+    public void DrawAnimation(GameTime aGameTime, SpriteBatch aSpritebatch)
     {
-        m_AnimationPlayer.Draw(gametime, g, new Vector2(380, 500), SpriteEffects.None);
+        m_AnimationPlayer.Draw(aGameTime, aSpritebatch, new Vector2(380, 500), SpriteEffects.None);
     }
 }

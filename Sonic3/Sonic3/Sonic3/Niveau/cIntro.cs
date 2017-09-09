@@ -19,12 +19,12 @@ class cIntro : GameScreen
     Animation MainSonic = new Animation(RessourceSonic3.MainSonic, 320, 0.1f, 2, false);
     bool m_CompetitionMode;
     Vector2 PosTail = new Vector2(0, 250);
-    Vector2 PosEmbleme = new Vector2(120, 500);
     SpriteEffects TailEffect;
     float Timer, Timer2;
 
     private SegaSplashScreen m_SegaSplashScreen;
     private EIntroSequence m_IntroSequenceState;
+    private Sonic3Emblem m_MainTitleEmblem;
 
     private enum EIntroSequence
     {
@@ -41,8 +41,12 @@ class cIntro : GameScreen
 
     public override void Load()
     {
+        MediaPlayer.IsMuted = true; // Just for debug remove this later plz   
+
         CreateSegaSplashScreen();
         PlaySegaSplashScreenTheme();
+
+        CreateMainTitleEmblem();
     }
 
     #region SegaSplashScreen
@@ -99,6 +103,13 @@ class cIntro : GameScreen
     }
     #endregion
 
+    #region Emblem
+    private void CreateMainTitleEmblem()
+    {
+        m_MainTitleEmblem = new Sonic3Emblem();
+    }
+    #endregion
+
     bool retour;
     public override void Update(GameTime gameTime)
     {
@@ -120,16 +131,18 @@ class cIntro : GameScreen
 
     private void UpdateSplashScreenState()
     {
-        if (m_SegaSplashScreen != null)
+        if (m_SegaSplashScreen == null)
         {
-            m_SegaSplashScreen.UpdateAnimation();
+            return;
         }
+
+        m_SegaSplashScreen.UpdateAnimation();
     }
 
-    private void UpdateMainTitleState(GameTime gameTime)
+    private void UpdateMainTitleState(GameTime aGameTime)
     {
-        Timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
-        Timer2 += (float)gameTime.ElapsedGameTime.TotalSeconds;
+        Timer += (float)aGameTime.ElapsedGameTime.TotalMilliseconds;
+        Timer2 += (float)aGameTime.ElapsedGameTime.TotalSeconds;
 
         AnimationPLayer.PlayAnimation(TailsAirplane);
 
@@ -152,14 +165,9 @@ class cIntro : GameScreen
         else
             AnimationPlayer2.PlayAnimation(MainSonic);
 
-
         if (Timer >= 0.2)
         {
-
-            if (PosEmbleme.Y <= 250)
-                PosEmbleme.Y = 250;
-            else
-                PosEmbleme.Y -= Timer / 5.30f;
+            m_MainTitleEmblem.Update();
 
             if (PosTail.X <= 860 && retour == false)
             {
@@ -196,52 +204,53 @@ class cIntro : GameScreen
         m_CompetitionMode = !m_CompetitionMode;
     }
 
-    public override void Draw(GameTime gametime, SpriteBatch g)
+    public override void Draw(GameTime aGameTime, SpriteBatch aSpritebatch)
     {
-        g.GraphicsDevice.Clear(Color.White);
-        DrawCurrentSequenceState(gametime, g);
+        aSpritebatch.GraphicsDevice.Clear(Color.White);
+        DrawCurrentSequenceState(aGameTime, aSpritebatch);
     }
 
-    private void DrawCurrentSequenceState(GameTime gametime, SpriteBatch g)
+    private void DrawCurrentSequenceState(GameTime aGameTime, SpriteBatch aSpritebatch)
     {
         switch (m_IntroSequenceState)
         {
             case EIntroSequence.SplashScreen:
-                DrawSplashScreenState(gametime, g);
+                DrawSplashScreenState(aGameTime, aSpritebatch);
                 break;
             case EIntroSequence.MainTitle:
-                DrawMainTitleState(gametime, g);
+                DrawMainTitleState(aGameTime, aSpritebatch);
                 break;
         }
     }
 
-    private void DrawSplashScreenState(GameTime gametime, SpriteBatch g)
+    private void DrawSplashScreenState(GameTime aGameTime, SpriteBatch g)
     {
         if (m_SegaSplashScreen == null)
         {
             return;
         }
 
-        m_SegaSplashScreen.DrawAnimation(gametime, g);
+        m_SegaSplashScreen.DrawAnimation(aGameTime, g);
     }
 
-    private void DrawMainTitleState(GameTime gametime, SpriteBatch g)
+    private void DrawMainTitleState(GameTime aGameTime, SpriteBatch aSpritebatch)
     {
-        g.Draw(RessourceSonic3.BackIntro, new Rectangle(0, 0, 800, 500), Color.White);
-        AnimationPLayer.Draw(gametime, g, PosTail, TailEffect);
+        aSpritebatch.Draw(RessourceSonic3.BackIntro, new Rectangle(0, 0, 800, 500), Color.White);
+        AnimationPLayer.Draw(aGameTime, aSpritebatch, PosTail, TailEffect);
 
         if (m_CompetitionMode)
-            g.Draw(RessourceSonic3.CompetIntro, new Rectangle(216, 400, RessourceSonic3.CompetIntro.Width * 2, RessourceSonic3.CompetIntro.Height * 2), Color.White);
+            aSpritebatch.Draw(RessourceSonic3.CompetIntro, new Rectangle(216, 400, RessourceSonic3.CompetIntro.Width * 2, RessourceSonic3.CompetIntro.Height * 2), Color.White);
         else
-            g.Draw(RessourceSonic3.PlayerIntro, new Rectangle(200, 400, RessourceSonic3.PlayerIntro.Width * 2, RessourceSonic3.PlayerIntro.Height * 2), Color.White);
+            aSpritebatch.Draw(RessourceSonic3.PlayerIntro, new Rectangle(200, 400, RessourceSonic3.PlayerIntro.Width * 2, RessourceSonic3.PlayerIntro.Height * 2), Color.White);
 
         if (AnimationPlayer2.Animation != null)
         {
-            AnimationPlayer2.Draw(gametime, g, new Vector2(400, 400), SpriteEffects.None);
+            AnimationPlayer2.Draw(aGameTime, aSpritebatch, new Vector2(400, 400), SpriteEffects.None);
 
         }
 
-        g.Draw(RessourceSonic3.CopyRight, new Rectangle(600, 440, RessourceSonic3.CopyRight.Width * 2, RessourceSonic3.CopyRight.Height * 2), Color.White);
-        g.Draw(RessourceSonic3.SonicEmbleme, new Rectangle((int)PosEmbleme.X, (int)PosEmbleme.Y, RessourceSonic3.SonicEmbleme.Width * 2, RessourceSonic3.SonicEmbleme.Height * 2), Color.White);
+        aSpritebatch.Draw(RessourceSonic3.CopyRight, new Rectangle(600, 440, RessourceSonic3.CopyRight.Width * 2, RessourceSonic3.CopyRight.Height * 2), Color.White);
+
+        m_MainTitleEmblem.Draw(aGameTime, aSpritebatch);
     }
 }

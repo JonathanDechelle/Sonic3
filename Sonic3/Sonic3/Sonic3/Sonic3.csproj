@@ -123,6 +123,7 @@
     <Compile Include="Collision\Loop.cs" />
     <Compile Include="UI\Menu.cs" />
     <Compile Include="Object\ObjectMapping.cs" />
+    <Compile Include="UI\Object\Sonic3Emblem.cs" />
     <Compile Include="UI\Parallax.cs" />
     <Compile Include="Object\Pente.cs" />
     <Compile Include="Object\Pic.cs" />
