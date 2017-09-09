@@ -110,6 +110,7 @@
     <Compile Include="Animation\AllAnimationSonic.cs" />
     <Compile Include="Animation\Animation.cs" />
     <Compile Include="Animation\AnimationPlayer.cs" />
+    <Compile Include="Helpers\ActionHelper.cs" />
     <Compile Include="UI\BackGroundTexture.cs" />
     <Compile Include="Object\Checkpoint.cs" />
     <Compile Include="Classe sécurisée\CodeExclusifSonic.cs" />
@@ -131,6 +132,7 @@
     <Compile Include="Power\Shield.cs" />
     <Compile Include="Ennemies\SingeArticuler.cs" />
     <Compile Include="Object\Tele.cs" />
+    <Compile Include="UI\SegaSplashScreen.cs" />
     <Compile Include="UI\TexteFinAnim.cs" />
     <Compile Include="Object\Tremplin.cs" />
     <Compile Include="Collision\ObjCollisionable.cs" />

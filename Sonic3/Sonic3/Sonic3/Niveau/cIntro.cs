@@ -18,13 +18,13 @@ class cIntro : GameScreen
     Animation TailsAirplane = new Animation(RessourceSonic3.TailAirplane, 100, 0.1f, 2, true);
     Animation SonicOeil = new Animation(RessourceSonic3.ClinOeil, 320, 0.08f, 2, false);
     Animation MainSonic = new Animation(RessourceSonic3.MainSonic, 320, 0.1f, 2, false);
-    bool SegaAnimation = true, Compet;
+    bool Compet;
     Vector2 PosTail = new Vector2(0, 250);
     Vector2 PosEmbleme = new Vector2(120, 500);
     SpriteEffects TailEffect;
     float Timer, Timer2;
-    int LogoNum;
-    Animation[] TabLogo = new Animation[5];
+
+    private SegaSplashScreen m_SegaSplashScreen;
 
     public cIntro(IServiceProvider serviceProvider, GraphicsDeviceManager graphics)
         : base(serviceProvider, graphics)
@@ -36,20 +36,50 @@ class cIntro : GameScreen
 
     public override void Load()
     {
-        TabLogo[0] = new Animation(RessourceSonic3.LogoPart1, 250, 0.10f, 2, false);
-        TabLogo[1] = new Animation(RessourceSonic3.LogoPart2, 250, 0.15f, 2, false);
-        TabLogo[2] = new Animation(RessourceSonic3.LogoPart3, 250, 0.20f, 2, false);
-        TabLogo[3] = new Animation(RessourceSonic3.LogoPart4, 250, 0.25f, 2, false);
-        TabLogo[4] = new Animation(RessourceSonic3.LogoPart5, 250, 0.32f, 2, false);
+        CreateSegaSplashScreen();  
     }
+
+    #region SegaSplashScreen
+    private void CreateSegaSplashScreen()
+    {
+        m_SegaSplashScreen = new SegaSplashScreen();
+        m_SegaSplashScreen.Load();
+        m_SegaSplashScreen.OnFinishCallback += SegaSplashScreenAnimationFinish;
+    }
+
+    private void SegaSplashScreenAnimationFinish()
+    {
+        m_SegaSplashScreen.OnFinishCallback -= SegaSplashScreenAnimationFinish;
+        DeleteSegaSplashScreen();
+        LaunchSonicTheme();
+    }
+
+    private void DeleteSegaSplashScreen()
+    {
+        m_SegaSplashScreen = null;
+    }
+    #endregion
+
+    #region Music
+    private void LaunchSonicTheme()
+    {
+        MediaPlayer.IsRepeating = true;
+        MediaPlayer.Play(RessourceSonic3.IntroSong);
+    }
+    #endregion
 
     bool retour;
     public override void Update(GameTime gameTime)
     {
+        if (m_SegaSplashScreen != null)
+        {
+            m_SegaSplashScreen.UpdateAnimation();
+        }
+
         Timer += (float)gameTime.ElapsedGameTime.TotalMilliseconds;
         Timer2 += (float)gameTime.ElapsedGameTime.TotalSeconds;
 
-        if (!SegaAnimation)
+        if (false)
         {
             AnimationPLayer.PlayAnimation(TailsAirplane);
 
@@ -108,37 +138,18 @@ class cIntro : GameScreen
                 Timer = 0;
             }
         }
-        else
-        {
-            if (AnimationPLayer.FrameIndex == 4)
-                LogoNum++;
-
-            if (LogoNum == 4)
-                Timer = 0;
-
-            if (LogoNum == 5)
-            {
-                SegaAnimation = false;
-                MediaPlayer.IsRepeating = true;
-                MediaPlayer.Play(RessourceSonic3.IntroSong);
-            }
-
-            else
-                AnimationPLayer.PlayAnimation(TabLogo[LogoNum]);
-        }
-
-
     }
-
-
 
     public override void Draw(GameTime gametime, SpriteBatch g)
     {
         g.GraphicsDevice.Clear(Color.White);
 
-        if (SegaAnimation)
-            AnimationPLayer.Draw(gametime, g, new Vector2(380, 500), SpriteEffects.None);
-        else
+        if (m_SegaSplashScreen != null)
+        {
+            m_SegaSplashScreen.DrawAnimation(gametime, g);
+        }
+         
+        if (false)
         {
             g.Draw(RessourceSonic3.BackIntro, new Rectangle(0, 0, 800, 500), Color.White);
             AnimationPLayer.Draw(gametime, g, PosTail, TailEffect);
@@ -156,8 +167,6 @@ class cIntro : GameScreen
 
             g.Draw(RessourceSonic3.CopyRight, new Rectangle(600, 440, RessourceSonic3.CopyRight.Width * 2, RessourceSonic3.CopyRight.Height * 2), Color.White);
             g.Draw(RessourceSonic3.SonicEmbleme, new Rectangle((int)PosEmbleme.X, (int)PosEmbleme.Y, RessourceSonic3.SonicEmbleme.Width * 2, RessourceSonic3.SonicEmbleme.Height * 2), Color.White);
-
         }
-
     }
 }
