@@ -5,81 +5,79 @@ using System.Text;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework;
 
-namespace Sonic3
+class SingeArticuler
 {
-    class SingeArticuler
+    Texture2D Tete, Bras;
+    public Vector2 PositionTete, PositionArbre;
+    Vector2 PositionBras;
+    float Seconde;
+    int NumStep = 0;
+    int DistanceStep = 16;
+    public BrasArticuler BrasArticuler;
+    Rectangle RecArbre, RecPerso;
+    public Rectangle RecTete;
+    public ObjCollisionable RecCollision;
+
+    public SingeArticuler(Vector2 PositionArbre)
     {
-        Texture2D Tete, Bras;
-        public Vector2 PositionTete, PositionArbre;
-        Vector2 PositionBras;
-        float Seconde;
-        int NumStep=0;
-        int DistanceStep = 16;
-        public BrasArticuler BrasArticuler;
-        Rectangle RecArbre, RecPerso;
-        public Rectangle RecTete;
-        public ObjCollisionable RecCollision;
-
-        public SingeArticuler(Vector2 PositionArbre)
-        {
-            this.PositionArbre = PositionArbre;
-            RecArbre = new Rectangle((int)PositionArbre.X-70, (int)PositionArbre.Y, RessourceSonic3.ArbreCoconut.Width+70, RessourceSonic3.ArbreCoconut.Height);
-            Tete = RessourceSonic3.TeteSinge;
-            Bras = RessourceSonic3.BrasSinge;
-            PositionTete = new Vector2(PositionArbre.X + 185, PositionArbre.Y + 162);
-            PositionBras = new Vector2(PositionArbre.X + 250, PositionArbre.Y + 209);
-            BrasArticuler = new BrasArticuler(PositionTete);
-            RecCollision = new ObjCollisionable((int)(this.PositionArbre.X + 100), (int)(this.PositionArbre.Y + 390), 250, 50, Color.White);
-        }
-
-        
-        public void Update(GameTime gametime,Rectangle RecPerso)
-        {
-            this.RecPerso = RecPerso;
-            RecTete = new Rectangle((int)PositionTete.X, (int)PositionTete.Y, Tete.Width, Tete.Height);
-            Seconde += (float)gametime.ElapsedGameTime.TotalSeconds;
-            if (Seconde > 0.4 && Seconde < 0.5)
-            {
-                PositionTete.Y -= DistanceStep;
-                if (NumStep == 3 || NumStep == -1)
-                    PositionTete.Y += DistanceStep;
-                Seconde = 1;
-            }
-            if (Seconde > 1.2)
-            {
-                PositionBras.Y -= DistanceStep;
-                Seconde = 0;
-
-                if (DistanceStep / (Math.Abs(DistanceStep)) == 1)
-                    NumStep++;
-                else
-                    NumStep--;
-            }
-
-            if (NumStep == 3)
-                DistanceStep = -(DistanceStep);
-            else if (NumStep == -1)
-                DistanceStep = Math.Abs(DistanceStep);
-
-            if (RecArbre.Contains(RecPerso))
-            {
-                if(BrasArticuler.Noix.Count!=0)
-                BrasArticuler.Noix[0].Armed = true;
-            }
-
-            BrasArticuler.Update(PositionTete);
-        }
-        public void Draw(SpriteBatch g)
-        {
-           // g.Draw(RessourceSonic3.Test, RecArbre, Color.White);
-            BrasArticuler.Draw(g);
-            g.Draw(Tete, PositionTete, Color.White);
-            g.Draw(RessourceSonic3.ArbreCoconut, PositionArbre, Color.White);
-            g.Draw(Bras, PositionBras, Color.White);
-           // g.Draw(RessourceSonic3.Test, RecPerso, Color.Blue);
-           // g.Draw(RessourceSonic3.Test, RecTete, Color.Red);
-        }
+        this.PositionArbre = PositionArbre;
+        RecArbre = new Rectangle((int)PositionArbre.X - 70, (int)PositionArbre.Y, RessourceSonic3.ArbreCoconut.Width + 70, RessourceSonic3.ArbreCoconut.Height);
+        Tete = RessourceSonic3.TeteSinge;
+        Bras = RessourceSonic3.BrasSinge;
+        PositionTete = new Vector2(PositionArbre.X + 185, PositionArbre.Y + 162);
+        PositionBras = new Vector2(PositionArbre.X + 250, PositionArbre.Y + 209);
+        BrasArticuler = new BrasArticuler(PositionTete);
+        RecCollision = new ObjCollisionable((int)(this.PositionArbre.X + 100), (int)(this.PositionArbre.Y + 390), 250, 50, Color.White);
     }
+
+
+    public void Update(GameTime gametime, Rectangle RecPerso)
+    {
+        this.RecPerso = RecPerso;
+        RecTete = new Rectangle((int)PositionTete.X, (int)PositionTete.Y, Tete.Width, Tete.Height);
+        Seconde += (float)gametime.ElapsedGameTime.TotalSeconds;
+        if (Seconde > 0.4 && Seconde < 0.5)
+        {
+            PositionTete.Y -= DistanceStep;
+            if (NumStep == 3 || NumStep == -1)
+                PositionTete.Y += DistanceStep;
+            Seconde = 1;
+        }
+        if (Seconde > 1.2)
+        {
+            PositionBras.Y -= DistanceStep;
+            Seconde = 0;
+
+            if (DistanceStep / (Math.Abs(DistanceStep)) == 1)
+                NumStep++;
+            else
+                NumStep--;
+        }
+
+        if (NumStep == 3)
+            DistanceStep = -(DistanceStep);
+        else if (NumStep == -1)
+            DistanceStep = Math.Abs(DistanceStep);
+
+        if (RecArbre.Contains(RecPerso))
+        {
+            if (BrasArticuler.Noix.Count != 0)
+                BrasArticuler.Noix[0].Armed = true;
+        }
+
+        BrasArticuler.Update(PositionTete);
+    }
+    public void Draw(SpriteBatch g)
+    {
+        // g.Draw(RessourceSonic3.Test, RecArbre, Color.White);
+        BrasArticuler.Draw(g);
+        g.Draw(Tete, PositionTete, Color.White);
+        g.Draw(RessourceSonic3.ArbreCoconut, PositionArbre, Color.White);
+        g.Draw(Bras, PositionBras, Color.White);
+        // g.Draw(RessourceSonic3.Test, RecPerso, Color.Blue);
+        // g.Draw(RessourceSonic3.Test, RecTete, Color.Red);
+    }
+}
 
     class BrasArticuler
     { 
@@ -171,21 +169,21 @@ namespace Sonic3
         public NoixCoco(Vector2 Position)
         {
             this.Position = Position;
-            NoixNormal=RessourceSonic3.NoixCoco;
-            NoixArmed=RessourceSonic3.NoixArmed;
+            NoixNormal = RessourceSonic3.NoixCoco;
+            NoixArmed = RessourceSonic3.NoixArmed;
             RecNoix = new Rectangle((int)Position.X, (int)Position.Y, NoixNormal.Width, NoixNormal.Height);
         }
 
 
-        public void Update( ref Vector2 Position)
+        public void Update(ref Vector2 Position)
         {
             this.Position = Position;
             RecNoix = new Rectangle((int)Position.X, (int)Position.Y, NoixNormal.Width, NoixNormal.Height);
 
-            if(Armed)
+            if (Armed)
             {
-                Position.X-=0.5f;
-                Position.Y+=3f;
+                Position.X -= 0.5f;
+                Position.Y += 3f;
             }
 
 
@@ -201,6 +199,4 @@ namespace Sonic3
 
             //g.Draw(RessourceSonic3.Test, RecNoix, Color.Yellow);
         }
-    
-    }    
-}
+    }
