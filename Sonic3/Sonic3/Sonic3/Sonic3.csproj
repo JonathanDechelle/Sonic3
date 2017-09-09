@@ -132,7 +132,7 @@
     <Compile Include="Power\Shield.cs" />
     <Compile Include="Ennemies\SingeArticuler.cs" />
     <Compile Include="Object\Tele.cs" />
-    <Compile Include="UI\SegaSplashScreen.cs" />
+    <Compile Include="UI\Object\SegaSplashScreen.cs" />
     <Compile Include="UI\TexteFinAnim.cs" />
     <Compile Include="Object\Tremplin.cs" />
     <Compile Include="Collision\ObjCollisionable.cs" />

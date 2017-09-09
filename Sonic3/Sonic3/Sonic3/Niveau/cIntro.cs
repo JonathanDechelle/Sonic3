@@ -35,14 +35,14 @@ class cIntro : GameScreen
     public cIntro(IServiceProvider serviceProvider, GraphicsDeviceManager graphics)
         : base(serviceProvider, graphics)
     {
-        MediaPlayer.Play(RessourceSonic3.SegaSong);
         SaveCheckPoint.Life = 3;
         SaveCheckPoint.CheckPointID = 1;
     }
 
     public override void Load()
     {
-        CreateSegaSplashScreen();  
+        CreateSegaSplashScreen();
+        PlaySegaSplashScreenTheme();
     }
 
     #region SegaSplashScreen
@@ -53,11 +53,19 @@ class cIntro : GameScreen
         m_SegaSplashScreen.OnFinishCallback += SegaSplashScreenAnimationFinish;
     }
 
+    private void PlaySegaSplashScreenTheme()
+    {
+        m_SegaSplashScreen.StartTheme();
+    }
+
     private void SegaSplashScreenAnimationFinish()
     {
         m_SegaSplashScreen.OnFinishCallback -= SegaSplashScreenAnimationFinish;
         DeleteSegaSplashScreen();
+
+        SetupSonicTheme();
         LaunchSonicTheme();
+
         ChangeIntroSequenceState(EIntroSequence.MainTitle);
     }
 
@@ -68,9 +76,13 @@ class cIntro : GameScreen
     #endregion
 
     #region Music
-    private void LaunchSonicTheme()
+    private void SetupSonicTheme()
     {
         MediaPlayer.IsRepeating = true;
+    }
+
+    private void LaunchSonicTheme()
+    {
         MediaPlayer.Play(RessourceSonic3.IntroSong);
     }
     #endregion

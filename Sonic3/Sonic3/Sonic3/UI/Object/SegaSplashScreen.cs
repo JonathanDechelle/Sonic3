@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Media;
 
 class SegaSplashScreen
 {
@@ -35,6 +36,12 @@ class SegaSplashScreen
         m_SegaAnimationPart[2] = new Animation(RessourceSonic3.LogoPart3, 250, 0.20f, 2, false);
         m_SegaAnimationPart[3] = new Animation(RessourceSonic3.LogoPart4, 250, 0.25f, 2, false);
         m_SegaAnimationPart[4] = new Animation(RessourceSonic3.LogoPart5, 250, 0.32f, 2, false);
+    }
+
+    public void StartTheme()
+    {
+        MediaPlayer.IsRepeating = false;
+        MediaPlayer.Play(RessourceSonic3.SegaSong);
     }
 
     public void UpdateAnimation()
