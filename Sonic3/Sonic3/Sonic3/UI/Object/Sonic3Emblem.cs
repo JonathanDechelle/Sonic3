@@ -16,10 +16,10 @@ public class Sonic3Emblem
 
     public Sonic3Emblem()
     {
-        Load();
+        Initialize();
     }
 
-    private void Load()
+    private void Initialize()
     {
         SetupInitialValues();
     }

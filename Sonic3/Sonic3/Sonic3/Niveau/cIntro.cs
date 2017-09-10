@@ -12,19 +12,20 @@ using Microsoft.Xna.Framework.Media;
 
 class cIntro : GameScreen
 {
-    AnimationPlayer AnimationPLayer = new AnimationPlayer();
     AnimationPlayer AnimationPlayer2 = new AnimationPlayer();
-    Animation TailsAirplane = new Animation(RessourceSonic3.TailAirplane, 100, 0.1f, 2, true);
     Animation SonicOeil = new Animation(RessourceSonic3.ClinOeil, 320, 0.08f, 2, false);
     Animation MainSonic = new Animation(RessourceSonic3.MainSonic, 320, 0.1f, 2, false);
     bool m_CompetitionMode;
-    Vector2 PosTail = new Vector2(0, 250);
-    SpriteEffects TailEffect;
-    float Timer, Timer2;
+    float Timer2;
 
-    private SegaSplashScreen m_SegaSplashScreen;
     private EIntroSequence m_IntroSequenceState;
+
+    // SplashScreen
+    private SegaSplashScreen m_SegaSplashScreen;
+
+    // MainTitle
     private Sonic3Emblem m_MainTitleEmblem;
+    private TailPlaneMainTitle m_TailPlane;
 
     private enum EIntroSequence
     {
@@ -43,10 +44,13 @@ class cIntro : GameScreen
     {
         MediaPlayer.IsMuted = true; // Just for debug remove this later plz   
 
+        //SplashScreen
         CreateSegaSplashScreen();
         PlaySegaSplashScreenTheme();
 
+        //MainTitle
         CreateMainTitleEmblem();
+        CreateTailPlane();
     }
 
     #region SegaSplashScreen
@@ -110,7 +114,13 @@ class cIntro : GameScreen
     }
     #endregion
 
-    bool retour;
+    #region TailPlane
+    private void CreateTailPlane()
+    {
+        m_TailPlane = new TailPlaneMainTitle();
+    }
+    #endregion
+
     public override void Update(GameTime gameTime)
     {
         UpdateCurrentSequenceState(gameTime);
@@ -141,10 +151,7 @@ class cIntro : GameScreen
 
     private void UpdateMainTitleState(GameTime aGameTime)
     {
-        Timer += (float)aGameTime.ElapsedGameTime.TotalMilliseconds;
         Timer2 += (float)aGameTime.ElapsedGameTime.TotalSeconds;
-
-        AnimationPLayer.PlayAnimation(TailsAirplane);
 
         if (KeyboardHelper.KeyPressed(Keys.Down) || KeyboardHelper.KeyPressed(Keys.Up))
         {
@@ -165,24 +172,9 @@ class cIntro : GameScreen
         else
             AnimationPlayer2.PlayAnimation(MainSonic);
 
-        if (Timer >= 0.2)
-        {
-            m_MainTitleEmblem.Update();
 
-            if (PosTail.X <= 860 && retour == false)
-            {
-                PosTail.X++;
-                TailEffect = SpriteEffects.None;
-            }
-            else if (PosTail.X >= -40)
-            {
-                PosTail.X--;
-                retour = true;
-                TailEffect = SpriteEffects.FlipHorizontally;
-            }
-            else retour = false;
-            Timer = 0;
-        }
+        m_MainTitleEmblem.Update();
+        m_TailPlane.Update(aGameTime);        
     }
 
     private void ChangeScreen(bool aCompetitionMode)
@@ -236,7 +228,8 @@ class cIntro : GameScreen
     private void DrawMainTitleState(GameTime aGameTime, SpriteBatch aSpritebatch)
     {
         aSpritebatch.Draw(RessourceSonic3.BackIntro, new Rectangle(0, 0, 800, 500), Color.White);
-        AnimationPLayer.Draw(aGameTime, aSpritebatch, PosTail, TailEffect);
+        
+        m_TailPlane.Draw(aGameTime, aSpritebatch);
 
         if (m_CompetitionMode)
             aSpritebatch.Draw(RessourceSonic3.CompetIntro, new Rectangle(216, 400, RessourceSonic3.CompetIntro.Width * 2, RessourceSonic3.CompetIntro.Height * 2), Color.White);
