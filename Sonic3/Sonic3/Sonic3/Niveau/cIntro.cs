@@ -12,11 +12,9 @@ using Microsoft.Xna.Framework.Media;
 
 class cIntro : GameScreen
 {
-    AnimationPlayer AnimationPlayer2 = new AnimationPlayer();
-    Animation SonicOeil = new Animation(RessourceSonic3.ClinOeil, 320, 0.08f, 2, false);
-    Animation MainSonic = new Animation(RessourceSonic3.MainSonic, 320, 0.1f, 2, false);
+    private SonicMainTitle m_Sonic;
+
     bool m_CompetitionMode;
-    float Timer2;
 
     private EIntroSequence m_IntroSequenceState;
 
@@ -51,6 +49,7 @@ class cIntro : GameScreen
         //MainTitle
         CreateMainTitleEmblem();
         CreateTailPlane();
+        CreateSonic();
     }
 
     #region SegaSplashScreen
@@ -121,6 +120,13 @@ class cIntro : GameScreen
     }
     #endregion
 
+    #region Sonic
+    private void CreateSonic()
+    {
+        m_Sonic = new SonicMainTitle();
+    }
+    #endregion
+
     public override void Update(GameTime gameTime)
     {
         UpdateCurrentSequenceState(gameTime);
@@ -151,8 +157,6 @@ class cIntro : GameScreen
 
     private void UpdateMainTitleState(GameTime aGameTime)
     {
-        Timer2 += (float)aGameTime.ElapsedGameTime.TotalSeconds;
-
         if (KeyboardHelper.KeyPressed(Keys.Down) || KeyboardHelper.KeyPressed(Keys.Up))
         {
             ToggleMode();
@@ -163,16 +167,7 @@ class cIntro : GameScreen
             ChangeScreen(m_CompetitionMode);
         }
 
-        if (Timer2 >= 3.5)
-        {
-            AnimationPlayer2.PlayAnimation(SonicOeil);
-            if (Timer2 >= 7)
-                Timer2 = 0;
-        }
-        else
-            AnimationPlayer2.PlayAnimation(MainSonic);
-
-
+        m_Sonic.Update(aGameTime);
         m_MainTitleEmblem.Update();
         m_TailPlane.Update(aGameTime);        
     }
@@ -236,11 +231,7 @@ class cIntro : GameScreen
         else
             aSpritebatch.Draw(RessourceSonic3.PlayerIntro, new Rectangle(200, 400, RessourceSonic3.PlayerIntro.Width * 2, RessourceSonic3.PlayerIntro.Height * 2), Color.White);
 
-        if (AnimationPlayer2.Animation != null)
-        {
-            AnimationPlayer2.Draw(aGameTime, aSpritebatch, new Vector2(400, 400), SpriteEffects.None);
-
-        }
+        m_Sonic.Draw(aGameTime, aSpritebatch);
 
         aSpritebatch.Draw(RessourceSonic3.CopyRight, new Rectangle(600, 440, RessourceSonic3.CopyRight.Width * 2, RessourceSonic3.CopyRight.Height * 2), Color.White);
 

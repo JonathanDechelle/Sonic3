@@ -5,7 +5,7 @@ public class TailPlaneMainTitle
 {
     private const float INITIAL_POSITION_X = 0;
     private const float INITIAL_POSITION_Y = 250f;
-    private const float SPEED = 2;
+    private const float SPEED = 1.5f;
     private const float LIMIT_LEFT_X = -60;
     private const float LIMIT_RIGHT_X = 860;
 
