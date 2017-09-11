@@ -77,6 +77,7 @@ using Microsoft.Xna.Framework.Content;
             GraphicsDeviceManager = graphics;
             this.serviceProvider = serviceProvider;
         }
+
         public abstract void Load();
         /// <summary>
         /// Override the Update to make your own game logic for the screen.

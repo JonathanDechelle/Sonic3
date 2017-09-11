@@ -111,6 +111,7 @@
     <Compile Include="Animation\Animation.cs" />
     <Compile Include="Animation\AnimationPlayer.cs" />
     <Compile Include="Helpers\ActionHelper.cs" />
+    <Compile Include="Niveau\MainTitle.cs" />
     <Compile Include="UI\BackGroundTexture.cs" />
     <Compile Include="Object\Checkpoint.cs" />
     <Compile Include="Classe sécurisée\CodeExclusifSonic.cs" />
