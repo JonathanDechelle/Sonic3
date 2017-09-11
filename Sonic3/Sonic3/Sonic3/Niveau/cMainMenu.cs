@@ -48,8 +48,8 @@ class cMainMenu : GameScreen
 
         if (SaveCheckPoint.Life == 0)
         {
-            RemoveScreen(this);
-            AddScreen(new cIntro(serviceProvider, GraphicsDeviceManager));
+            /*RemoveScreen(this);
+            AddScreen(new cIntro(serviceProvider, GraphicsDeviceManager));*/
         }
 
         if (KeyboardHelper.KeyPressed(Keys.Up) || KeyboardHelper.KeyPressed(Keys.Down))
@@ -127,7 +127,7 @@ class cMainMenu : GameScreen
                     else Numperso = 2;
                 }
 
-                AddScreen(new cAngelIsland(serviceProvider, GraphicsDeviceManager, Numperso));
+                //AddScreen(new cAngelIsland(serviceProvider, GraphicsDeviceManager, Numperso));
 
                 if (Cadre == CadreAnim2)
                     NumNiv = 0;

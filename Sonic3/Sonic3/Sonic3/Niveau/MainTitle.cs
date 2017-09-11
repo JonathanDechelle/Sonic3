@@ -91,6 +91,7 @@ public class MainTitle : GameScreen
 
     private void ChangeScreen(EMainTitleMode aMode)
     {
+        /*
         switch (aMode)
         {
             case EMainTitleMode.Normal:
@@ -101,7 +102,7 @@ public class MainTitle : GameScreen
                 break;
         }
 
-        RemoveScreen(this);
+        RemoveScreen(this);*/
     }
 
     private void ToggleMode()

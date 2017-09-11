@@ -48,7 +48,7 @@ class cAngelIslandP2 : GameScreen
 
     public override void Load()
     {
-        Joueur.Load(Content);
+        //Joueur.Load(Content);
     }
 
     public override void Update(GameTime gameTime)

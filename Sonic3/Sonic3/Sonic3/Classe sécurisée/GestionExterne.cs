@@ -28,9 +28,9 @@ class GestionExterne
         for (int M = Menus.Count - 1; M >= 0; M--)
         {
             Menus[M].Update(Joueur);
-            if (Menus[M].Delete) Menus.RemoveAt(M);
+            /*if (Menus[M].Delete) Menus.RemoveAt(M);
             else
-                if (Menus[M].Exit) GameScreen.RemoveScreen(Screen);
+                if (Menus[M].Exit) GameScreen.RemoveScreen(Screen);*/
         }
     }
 
@@ -41,15 +41,15 @@ class GestionExterne
         {
             APDead.PlayAnimation(Death);
             APDeadpos.Y += 6;
-            if (APDeadpos.Y - APDeadPosInit.Y == 600)
-                GameScreen.RemoveScreen(Screen);
+            /*if (APDeadpos.Y - APDeadPosInit.Y == 600)
+                GameScreen.RemoveScreen(Screen);*/
         }
     }
 
     static public Vector2 LoadingPosition(List<Checkpoint> CheckPoints, GameScreen Ecran)
     {
-        if (SaveCheckPoint.Life == 0)
-            GameScreen.RemoveScreen(Ecran);
+        //if (SaveCheckPoint.Life == 0)
+            //GameScreen.RemoveScreen(Ecran);
 
         if (SaveCheckPoint.CheckPointID == 1)
             return new Vector2(100, 400);

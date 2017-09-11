@@ -177,7 +177,7 @@ class cAngelIsland : GameScreen
 
     public override void Load()
     {
-        Joueur.Load(Content);
+        //Joueur.Load(Content);
         Death = Joueur.Death;
 
         CollisionLoading.Load(TexturesObject, Singes, Loops, Pentes, Obj);
@@ -327,8 +327,8 @@ class cAngelIsland : GameScreen
                     Joueur.Enabled = false;
                     FinNiveau = false;
                     camera.Locked = false;
-                    AddScreen(new cTransition1(serviceProvider, GraphicsDeviceManager, NumPerso));
-                    RemoveScreen(this);
+                    /*AddScreen(new cTransition1(serviceProvider, GraphicsDeviceManager, NumPerso));
+                    RemoveScreen(this);*/
                 }
             }
         }

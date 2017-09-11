@@ -53,8 +53,7 @@ class cIntro : GameScreen
 
     private void GoToMainTitle()
     {
-        AddScreen(new MainTitle(serviceProvider, GraphicsDeviceManager));
-        RemoveScreen(this);
+        GameScreenManager.Instance.ChangeScreen(EScreen.MainTitle);
     }
 
     private void DeleteSegaSplashScreen()

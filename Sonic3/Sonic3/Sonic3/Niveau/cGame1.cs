@@ -14,8 +14,8 @@ using Microsoft.Xna.Framework.Media;
     /// </summary>
 public class cGame1 : Microsoft.Xna.Framework.Game
 {
-    GraphicsDeviceManager graphics;
-    SpriteBatch spriteBatch;
+    private GraphicsDeviceManager graphics;
+    private SpriteBatch spriteBatch;
 
     //Screen adjustement
     int screenWidth = 800;
@@ -57,8 +57,9 @@ public class cGame1 : Microsoft.Xna.Framework.Game
         // Create a new SpriteBatch, which can be used to draw textures.
         spriteBatch = new SpriteBatch(GraphicsDevice);
         RessourceSonic3.LoadContent(Content);
-        //Create a new Title screen.
-        GameScreen.AddScreen(new cIntro(Services, this.graphics));
+
+        GameScreenManager.Instance.Initialize(Services, graphics);
+        GameScreenManager.Instance.AddScreen(EScreen.SplashScreen);
     }
 
     /// <summary>
@@ -83,23 +84,7 @@ public class cGame1 : Microsoft.Xna.Framework.Game
         /*if (Game.PlayerState.IsKeyDown(Keys.Escape))
             this.Exit();*/
 
-        for (int i = 0; i < GameScreen.listGameScreen.Count; i++)
-        {
-            if (i == GameScreen.listGameScreen.Count - 1)
-                GameScreen.listGameScreen[i].IsOnTop = true;
-            else
-                GameScreen.listGameScreen[i].IsOnTop = false;
-            //If the GameScreen requires to be on top and is on top or doesn't requires focus to be updated.
-            if ((GameScreen.listGameScreen[i].RequireFocus && GameScreen.listGameScreen[i].IsOnTop) || !GameScreen.listGameScreen[i].RequireFocus)
-            {
-                //Update everything in the GameScreen List and delete it if not Alive.
-                GameScreen.listGameScreen[i].Update(gameTime);
-                if (!GameScreen.listGameScreen[i].Alive)//Delete, then decrement i to go back at the last instance in the list.
-                    GameScreen.listGameScreen.RemoveAt(i--);
-            }
-        }
-        if (GameScreen.listGameScreen.Count == 0)
-            this.Exit();
+        GameScreenManager.Instance.UpdateScreen(gameTime);
 
         KeyboardHelper.PlayerStateLast = Keyboard.GetState();
         base.Update(gameTime);
@@ -114,11 +99,8 @@ public class cGame1 : Microsoft.Xna.Framework.Game
         spriteBatch.Begin();
         GraphicsDevice.Clear(Color.White);
 
-        // TODO: Add your drawing code here
-        for (int i = 0; i < GameScreen.listGameScreen.Count; i++)
-            if ((GameScreen.listGameScreen[i].RequireDrawFocus && GameScreen.listGameScreen[i].IsOnTop) || !GameScreen.listGameScreen[i].RequireDrawFocus)
-                if (GameScreen.listGameScreen[i].Alive)
-                    GameScreen.listGameScreen[i].Draw(gameTime, spriteBatch);
+        GameScreenManager.Instance.DrawScreen(gameTime, spriteBatch);
+
         spriteBatch.End();
         base.Draw(gameTime);
     }

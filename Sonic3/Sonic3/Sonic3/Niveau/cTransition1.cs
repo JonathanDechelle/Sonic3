@@ -47,7 +47,7 @@ class cTransition1 : GameScreen
             if (Compteur >= 2)
             {
                 //AddScreen(new cTest(serviceProvider, GraphicsDeviceManager,NumPerso));
-                RemoveScreen(this);
+                //RemoveScreen(this);
             }
         }
     }
