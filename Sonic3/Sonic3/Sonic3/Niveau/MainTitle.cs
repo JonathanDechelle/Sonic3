@@ -91,18 +91,15 @@ public class MainTitle : GameScreen
 
     private void ChangeScreen(EMainTitleMode aMode)
     {
-        /*
         switch (aMode)
         {
             case EMainTitleMode.Normal:
-                AddScreen(new cMainMenu(serviceProvider, GraphicsDeviceManager));
+                GameScreenManager.Instance.ChangeScreen(EScreen.MainMenu);
                 break;
             case EMainTitleMode.Competition:
-                AddScreen(new cIntro(serviceProvider, GraphicsDeviceManager));
+                GameScreenManager.Instance.ChangeScreen(EScreen.SplashScreen);
                 break;
         }
-
-        RemoveScreen(this);*/
     }
 
     private void ToggleMode()

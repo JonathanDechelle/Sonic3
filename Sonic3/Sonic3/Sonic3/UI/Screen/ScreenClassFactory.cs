@@ -15,6 +15,8 @@ public class ScreenClassFactory
                 return new cIntro(serviceProvider, graphics);
             case EScreen.MainTitle:
                 return new MainTitle(serviceProvider, graphics);
+            case EScreen.MainMenu:
+                return new cMainMenu(serviceProvider, graphics);
         }
 
         return null;
