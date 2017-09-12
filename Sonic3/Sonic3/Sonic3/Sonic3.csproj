@@ -156,7 +156,7 @@
     <Compile Include="Niveau\cGame1.cs" />
     <Compile Include="Ressource\RessourceSonic3.cs" />
     <Compile Include="UI\Camera.cs" />
-    <Compile Include="UI\GameScreen.cs" />
+    <Compile Include="UI\Screen\GameScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Game.ico" />

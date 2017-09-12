@@ -5,11 +5,12 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Input;
 
     /// <summary>
     /// Represent a basic class for every screen that will need the be drawn.
     /// </summary>
-    public abstract class GameScreen
+    public class GameScreen
     {
         private ContentManager Content;
 
@@ -49,13 +50,53 @@ using Microsoft.Xna.Framework.Content;
             Content.RootDirectory = "Content";
         }
 
-        public abstract void Load();
+        public virtual void Load()
+        {
+
+        }
+
         /// <summary>
         /// Override the Update to make your own game logic for the screen.
         /// </summary>
-        public abstract void Update(GameTime gameTime);
+        public virtual void Update(GameTime gameTime)
+        {
+            CheckOnDirectionPressed();
+            CheckOnEnterPressed();
+        }
+
+        private void CheckOnEnterPressed()
+        {
+            if (!KeyboardHelper.KeyPressed(Keys.Enter))
+            {
+                return;
+            }
+
+            OnEnterPressed();
+        }
+
+        public virtual void OnEnterPressed()
+        { }
+
+        private void CheckOnDirectionPressed()
+        {
+            for (Keys i = Keys.Left; i < (Keys)Keys.Down + 1; i++)
+            {
+                if (KeyboardHelper.KeyPressed(i))
+                {
+                    OnDirectionPressed(i);
+                    break;
+                }
+            }
+        }
+
+        public virtual void OnDirectionPressed(Keys aKeys)
+        { }
+
         /// <summary>
         /// Override the Update to make your own drawing logic for the screen.
         /// </summary>
-        public abstract void Draw(GameTime gametime,SpriteBatch g);
+        public virtual void Draw(GameTime gametime, SpriteBatch g)
+        {
+
+        }
     }

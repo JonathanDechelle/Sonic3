@@ -68,15 +68,7 @@ public class MainTitle : GameScreen
 
     public override void Update(GameTime aGameTime)
     {
-        if (KeyboardHelper.KeyPressed(Keys.Down) || KeyboardHelper.KeyPressed(Keys.Up))
-        {
-            ToggleMode();
-        }
-
-        if (KeyboardHelper.KeyPressed(Keys.Enter))
-        {
-            OnEnterPressed();
-        }
+        base.Update(aGameTime);
 
         m_Sonic.Update(aGameTime);
         m_MainTitleEmblem.Update();
@@ -84,7 +76,15 @@ public class MainTitle : GameScreen
     }
 
     #region MainTitleMenu
-    private void OnEnterPressed()
+    public override void OnDirectionPressed(Keys aKeys)
+    {
+        if (KeyboardHelper.KeyPressed(Keys.Down) || KeyboardHelper.KeyPressed(Keys.Up))
+        {
+            ToggleMode();
+        }
+    }
+
+    public override void OnEnterPressed()
     {
         ChangeScreen(m_MainTitleMode);
     }
