@@ -59,7 +59,7 @@ public class cGame1 : Microsoft.Xna.Framework.Game
         RessourceSonic3.LoadContent(Content);
 
         GameScreenManager.Instance.Initialize(Services, graphics);
-        GameScreenManager.Instance.AddScreen(EScreen.SplashScreen);
+        GameScreenManager.Instance.AddScreen(EScreen.MainMenu);
     }
 
     /// <summary>
