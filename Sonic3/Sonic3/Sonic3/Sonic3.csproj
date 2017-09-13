@@ -126,9 +126,9 @@
     <Compile Include="Collision\Loop.cs" />
     <Compile Include="UI\Menu.cs" />
     <Compile Include="Object\ObjectMapping.cs" />
-    <Compile Include="UI\Object\Sonic3Emblem.cs" />
-    <Compile Include="UI\Object\SonicMainTitle.cs" />
-    <Compile Include="UI\Object\TailPlaneMainTitle.cs" />
+    <Compile Include="UI\Object\MainTitle\Sonic3Emblem.cs" />
+    <Compile Include="UI\Object\MainTitle\SonicMainTitle.cs" />
+    <Compile Include="UI\Object\MainTitle\TailPlaneMainTitle.cs" />
     <Compile Include="UI\Parallax.cs" />
     <Compile Include="Object\Pente.cs" />
     <Compile Include="Object\Pic.cs" />
@@ -138,7 +138,7 @@
     <Compile Include="Power\Shield.cs" />
     <Compile Include="Ennemies\SingeArticuler.cs" />
     <Compile Include="Object\Tele.cs" />
-    <Compile Include="UI\Object\SegaSplashScreen.cs" />
+    <Compile Include="UI\Object\SplashScreen\SegaSplashScreen.cs" />
     <Compile Include="UI\Screen\ScreenClassFactory.cs" />
     <Compile Include="UI\TexteFinAnim.cs" />
     <Compile Include="Object\Tremplin.cs" />
